@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: salga-xmd
+    env: node
+    plan: starter
+    buildCommand: npm install --legacy-peer-deps
+    startCommand: npm start
+    envVars:
+      - key: PORT
+        value: 3000
+    disk:
+      name: salga-sessions
+      mountPath: /opt/render/project/src/sessions
+      sizeGB: 1
+
