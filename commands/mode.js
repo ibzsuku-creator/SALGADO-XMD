@@ -13,6 +13,8 @@ function readMode() {
 }
 
 function writeMode(data) {
+    const dir = path.dirname(modeFile);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(modeFile, JSON.stringify(data, null, 2));
 }
 
@@ -54,4 +56,3 @@ async function modeCommand(sock, chatId, userMessage, message, isOwnerOrSudo) {
 }
 
 module.exports = { modeCommand, readMode };
-
