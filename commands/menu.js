@@ -11,22 +11,22 @@ async function menuCommand(sock, chatId, message, senderId) {
 ║»👾 *ᴅᴇᴠᴇʟᴏᴘᴇʀ* : IB🥷
 ║»👾 *⏰ ʜᴇᴜʀᴇ* : ${getHeure()}
 ╚══════════════════>🥷
-                𝐂𝐄𝐍𝐓𝐑𝐀-𝐇𝐄𝐗
+       𝐂𝐄𝐍𝐓𝐑𝐀-𝐇𝐄𝐗
 ╔══════𝗚𝗘𝗡𝗘𝗥𝗔𝗟══════>🥷
-║❒ menu 👾 → Menu
-║❒ mode public/private 👾 → Accès
-║❒ help 👾 → Aide
-║❒ ping 👾 → Vitesse
-║❒ waouh 👾 → Save média → MP
-║❒ owner 👾 → Créateur
-║❒ humm 👾 → Save média → MP
-║❒ tagall 👾 → Mention all
-║❒ save 👾 → Sauvegarde
-║❒ gpt <question> 👾 → IA
-║❒ sticker 👾 → Sticker
-║❒ antilink on/off 👾 → Anti-lien
-║❒ kick 👾 → Éjecter un membre
-║❒ antidelete on/off 👾 → Anti-suppression
+║❒ menu → Menu
+║❒ mode public/private 
+║❒ help → Aide
+║❒ ping → Vitesse
+║❒ waouh → Save média 
+║❒ owner → Créateur
+║❒ humm → Save média 
+║❒ tagall → Mention all
+║❒ save → Sauvegarde
+║❒ gpt <question> → IA
+║❒ sticker → Sticker
+║❒ antilink → Anti-lien
+║❒ kick → Éjecter un membre
+║❒ antidelete on/off → suppr
 ╚═══════════════════>🥷
 
 > 🥷 _by *IB- CENTRAL-HEX*_`;
