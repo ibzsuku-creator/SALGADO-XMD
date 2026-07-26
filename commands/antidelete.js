@@ -18,6 +18,8 @@ function loadConfig() {
 }
 
 function saveConfig(config) {
+    const dir = path.dirname(CONFIG_PATH);
+    if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(CONFIG_PATH, JSON.stringify(config, null, 2));
 }
 
@@ -158,4 +160,3 @@ async function handleMessageRevocation(sock, revocationMessage) {
 }
 
 module.exports = { handleAntideleteCommand, handleMessageRevocation, storeMessage };
-
